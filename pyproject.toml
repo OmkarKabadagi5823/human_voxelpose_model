@@ -4,8 +4,19 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "human_voxelpose_model"
+description = "Allows easy working with Voxelpose output poses"
+license = {file = "LICENSE"}
+keywords = ["human", "voxelpose", "pose"]
+authors = [
+  {email = "kabadagiomkar@gmail.com", name = "Omkar Kabadagi"}
+]
+maintainers = [
+  {email = "kabadagiomkar@gmail.com", name = "Omkar Kabadagi"}
+]
 version = "0.0.1"
 dependencies = [
   "requests",
-  'importlib-metadata; python_version<"3.8"'
+  'importlib-metadata; python_version<"3.8"',
+  "numpy",
+  "scipy"
 ]
